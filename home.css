@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    ;
+}
+
+body {
+    background: url('/Complete Web Devlopment Pratice/Project1/Img/abs-1850926.jpg');
+    /* height: 1400px; */
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(96 101 92);
+    padding: 1px;
+    height: 100px;
+}
+
+.left {
+    /* border: 2px solid rebeccapurple; */
+    display: inline-block;
+    margin: 4px 12px;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.left img {
+    border-radius: 20px;
+    width: 100px;
+    padding: 2px;
+    margin: 4px;
+    /* filter: brightness(0) invert(2); */
+}
+
+.left img:hover {
+    background-color: rgb(231, 229, 229);
+}
+
+.mid {
+    display: block;
+    /* border: 2px solid rgb(42, 154, 34); */
+    width: 80%;
+    padding: 4px 25px;
+    margin: 20px auto;
+}
+
+.right {
+    /* border: 2px solid rgb(84, 107, 31); */
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 40px;
+}
+
+.btn {
+    /* border:none; */
+    background-color: rgb(96 101 92);
+    padding: 12px;
+    margin: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+    background-color: rgb(7, 7, 7);
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 4px;
+    margin: 12px;
+    font-size: 20px;
+}
+
+.navbar li a {
+    border-radius: 15px;
+    /* background-color: rgb(96 101 92); */
+    text-decoration: none;
+    padding: 12px 12px;
+}
+
+.navbar li a:hover {
+    background-color: black;
+}
+
+li a:active {
+    text-decoration: underline;
+    color: antiquewhite;
+
+}
+
+.container {
+    border: 2px solid white;
+    width: 33%;
+    padding: 80px;
+    margin: 106px 80px;
+    border-radius: 10px;
+}
+
+.container input {
+    color: black;
+    display: block;
+    padding: 10px 50px;
+    margin: 4px auto;
+    width: 33%;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    padding: 20px 110px;
+    margin: 20px auto;
+    font-size: 20px;
+}
